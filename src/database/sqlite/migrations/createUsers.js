@@ -19,5 +19,5 @@ WHERE NOT EXISTS (
 )
 
 `;
-
+ 
 module.exports = createUsers;    
