@@ -68,9 +68,9 @@ $ npm run dev
   http://localhost:5173/
 ```
 
-## 💻 Acesso a aplicação no ar:
+## 💻 Acesso a aplicação:
 <br><br>
-Você pode usar os dados abaixo para logar na conta de um usuário que já tem um histórico de pedidos e favoritos:
+Você pode usar os dados abaixo para logar na conta de um usuário que já tem um histórico de pedidos e favoritos: 
 
 ```bash
   e-mail: test@email.com
