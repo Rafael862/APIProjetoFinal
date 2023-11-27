@@ -1,6 +1,5 @@
 const knex = require('../database/knex');
 const { hash } = require('bcryptjs');
-
 const AppError = require('../utils/AppError');
 const sqliteConnection = require('../database/sqlite');
 

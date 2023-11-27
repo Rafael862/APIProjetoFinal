@@ -127,7 +127,7 @@ class FoodController {
 
     const allIngredients = await knex('ingredients');
     const foodWithIngredients = foods.map(food => {
-      const foodIngredients = allIngredients.filter(ingredient => ingredient.food_id === food.id);
+    const foodIngredients = allIngredients.filter(ingredient => ingredient.food_id === food.id);
 
       return {
         ...food,

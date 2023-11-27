@@ -18,7 +18,6 @@ class OrdersController {
 
   async show (req, res) {
     const { user_id } = req.query;
-
     const order = await knex("orders")
       .select([
         "orders.id",

@@ -14,7 +14,6 @@ class FavoritesController {
 
   async show (req, res) {
     const { user_id, food_id } = req.query;
-
     const favorites = await knex("favorites").where({ user_id, food_id });
     const isFavorite = favorites.length > 0;
 

@@ -1,13 +1,10 @@
 const { Router } = require('express');
 const multer = require('multer');
-
 const uploadConfig = require('../configs/upload');
 const FoodController = require('../controllers/FoodController');
 const ensureAuthenticated = require('../middlewares/ensureAuthenticated');
-
 const foodRoutes = Router();
 const upload = multer(uploadConfig.MULTER);
-
 const foodController = new FoodController();
 
 foodRoutes.use(ensureAuthenticated);
