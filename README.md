@@ -73,15 +73,15 @@ $ npm run dev
 Você pode usar os dados abaixo para logar na conta de um usuário que já tem um histórico de pedidos e favoritos: 
 
 ```bash
-  e-mail: test@email.com
-  senha: 123456
+  e-mail: user
+  senha: user
 ```
 
 Ou use as credenciais abaixo para logar como administrador:
 
 ```bash
-  e-mail: admin@exemplo.com
-  senha: 12345
+  e-mail: admin
+  senha: admin
 ```
 
 Fique à vontade também para criar seu próprio usuário comum e testar a aplicação fazendo novos pedidos.
